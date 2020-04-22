@@ -15,5 +15,5 @@ index = 0
       coldest_temps << coldest_avg
       index += 1
     end
-    puts coldest_temps
+    p coldest_temps
 end
