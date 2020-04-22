@@ -5,11 +5,15 @@ coldest_temps = []
 index = 0 
   while index < src.count do 
     inner_index = 0 
+    coldest_avg = 100
       while inner_index < src[index] do 
-        coldest_temps = src[index][inner_index].sort[0]
+        if src[index][inner_index] < coldest_avg
+          coldest_avg = src[index][inner_index]
         end
         inner_index +=1 
       end
+      coldest_temps << coldest_avg
       index += 1
+    end
     coldest_temps
 end
