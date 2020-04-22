@@ -11,6 +11,5 @@ index = 0
         inner_index +=1 
       end
       index += 1
-    end
     coldest_temps
 end
