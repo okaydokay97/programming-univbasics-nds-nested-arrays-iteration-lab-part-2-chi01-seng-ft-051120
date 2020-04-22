@@ -6,7 +6,7 @@ index = 0
   while index < src.count do 
     inner_index = 0 
     coldest_avg = 100
-      while inner_index < src[index] do 
+      while inner_index < src[index].count do 
         if src[index][inner_index] < coldest_avg
           coldest_avg = src[index][inner_index]
         end
